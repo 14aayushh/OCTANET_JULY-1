@@ -1,0 +1,105 @@
+body {
+  font-family: "Poppins", sans-serif;
+  margin: 50px 50px 0 50px;
+  background-color: #e2dc8b50;
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
+
+h1 {
+  font-size: 5rem;
+}
+
+footer {
+  text-align: right;
+  color: midnightblue;
+}
+.left {
+  float: left;
+}
+.right {
+  float: right;
+}
+.card {
+  width: 45%;
+  height: 45%;
+}
+.tile-image {
+  height: auto;
+  width: 100%;
+  float: bottom;
+  margin-right: 45px;
+}
+@media (max-width: 680px) {
+  .logo {
+    width: 100px;
+  }
+
+  h1 {
+    font-size: 3.5rem;
+    text-align: center;
+  }
+
+  .card {
+    width: 100%;
+    display: block;
+    margin-bottom: 30px;
+    text-align: justify;
+  }
+
+  .card img {
+    margin-bottom: 10px;
+    width: 100%;
+    display: inline;
+    object-fit: cover;
+  }
+}
+footer {
+  text-align: right;
+  color: rgb(255, 50, 50);
+  font-size: 1rem;
+}
+
+.social-media {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+  margin-top: 110px;
+}
+
+.social-media a {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  text-decoration: none;
+  color: inherit;
+}
+a:hover {
+  color: hsl(0, 0%, 30%);
+  cursor: pointer;
+}
+a:active {
+  color: hsl(0, 0%, 50%);
+}
+.social-media img {
+  height: 30px;
+  width: 30px;
+}
+
+.social-media span {
+  margin-top: 5px;
+}
+
+.text {
+  color: hsl(327, 87%, 50%);
+}
+#logo {
+  color: rgb(255, 50, 50);
+  font-family: "Playwrite MX", cursive;
+  font-optical-sizing: auto;
+  font-size: 2rem;
+  font-style: normal;
+}
